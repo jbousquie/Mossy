@@ -1,0 +1,219 @@
+animations {
+  id: "idle"
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00000.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00001.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00002.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00003.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00004.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00005.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00006.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00007.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00008.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00009.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00010.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00011.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00012.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00013.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00014.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00015.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00016.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00017.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00018.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00019.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 60
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "walk"
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00000.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00001.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00002.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00003.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00004.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00005.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00006.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00007.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00008.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00009.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00010.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00011.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00012.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00013.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00014.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00015.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00016.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00017.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00018.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00019.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 60
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "jump"
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00000.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00001.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00002.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00003.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00004.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00005.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00006.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00007.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  playback: PLAYBACK_ONCE_FORWARD
+  fps: 60
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+margin: 0
+extrude_borders: 2
+inner_padding: 0
+max_page_width: 0
+max_page_height: 0
+rename_patterns: ""

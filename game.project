@@ -5,8 +5,8 @@ main_collection = /main/game.collectionc
 shared_state = 1
 
 [display]
-width = 960
-height = 640
+width = 1080
+height = 760
 
 [android]
 input_method = HiddenInputField
@@ -16,4 +16,5 @@ title = Mossy
 
 [physics]
 use_fixed_timestep = 1
+debug = 1
 
