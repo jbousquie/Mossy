@@ -211,6 +211,77 @@ animations {
   flip_horizontal: 0
   flip_vertical: 0
 }
+animations {
+  id: "dash1"
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00000.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00001.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00002.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00003.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00004.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00005.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00006.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00007.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00008.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00009.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00010.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00011.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00012.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00013.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00014.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/images/BlueWizard Animations/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00015.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  playback: PLAYBACK_ONCE_FORWARD
+  fps: 60
+  flip_horizontal: 0
+  flip_vertical: 0
+}
 margin: 0
 extrude_borders: 2
 inner_padding: 0

@@ -13,8 +13,9 @@ input_method = HiddenInputField
 
 [project]
 title = Mossy
+dependencies#0 = https://github.com/defold/lua-language-server/releases/download/v0.0.5/release.zip
 
 [physics]
 use_fixed_timestep = 1
-debug = 1
+debug = 0
 
