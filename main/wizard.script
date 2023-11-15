@@ -1,8 +1,8 @@
 
 -- SETTINGS
-local WALK_VEL = 500
-local JUMP_VEL = 850
-local DASH_VEL = 2000
+local WALK_VEL = 300
+local JUMP_VEL = 600
+local DASH_VEL = 1000
 local GRAVITY = 1500
 local MAX_Y_VEL = 2000
 local AIR_FRICTION = 0.97
@@ -20,10 +20,10 @@ local JUMP = hash("jump")
 local DASH = hash("dash")
 
 -- ANIMATIONS
-local ANIM_IDLE = "idle"
-local ANIM_WALK = "walk"
-local ANIM_JUMP = "jump"
-local ANIM_DASH = "dash1"
+local ANIM_IDLE = hash("idle")
+local ANIM_WALK = hash("walk")
+local ANIM_JUMP = hash("jump")
+local ANIM_DASH = hash("dash1")
 
 -- OTHER CONSTs
 local CONTACT_POINT = hash("contact_point_response")
@@ -42,14 +42,15 @@ function init(self)
 	self.on_ground = false
 	self.hit_wall = false
 	self.hit_ceiling = false
-	self.state = STATE_IDLE
+	self.state = STATE_WALK
 	self.previous_state = STATE_IDLE
-	self.animation = "idle"
+	self.animation = ANIM_IDLE
 	self.correction = vmath.vector3(0, 0, 0)
+	self.compensation = vmath.vector3()
 end
 
 
-
+-- clamp val between min and max
 local function clamp(val, min, max)
 	if val < min then return min 
 	elseif val > max then return max
@@ -64,24 +65,36 @@ local function add_in_place(v1 ,v2)
 	v1.z = v1.z + v2.z
 end
 
-local function store_state(self)
-	self.previous_state = self.state
+-- multiply vector v1 by scalar val
+local function multiply_in_place(v1, val)
+	v1.x = v1.x * val
+	v1.y = v1.y * val
+	v1.z = v1.z * val
 end
+
+-- copy v2 values into v1
+local function copy_in_place(v1, v2)
+	v1.x = v2.x
+	v1.y = v2.y
+	v1.z = v2.z
+end
+
 
 local function animate(self)
 	local state = self.state
 	if state ~= self.previous_state then
 		if state == STATE_IDLE then
 			self.animation = ANIM_IDLE
-		elseif state == STATE_WALK then
+		elseif state == STATE_WALK and self.on_ground then
 			self.animation = ANIM_WALK
-		elseif state == STATE_DASH then
+		elseif state == STATE_DASH and self.on_ground then
 			self.animation = ANIM_DASH
 		elseif state == STATE_JUMP then
 			self.animation = ANIM_JUMP
 		end
+		sprite.play_flipbook("#sprite", self.animation)
+		self.previous_state = self.state
 	end
-	sprite.play_flipbook("#sprite", self.animation, store_state(self))
 end
 
 
@@ -90,11 +103,12 @@ function fixed_update(self, dt)
 	-- check vertical collision
 	if self.on_ground then
 		self.velocity.y = 0
-	else 
+	else
 		if self.hit_ceiling then self.velocity.y = 0 end
 		-- apply gravity to velocity Y
-		self.velocity.y = self.velocity.y - GRAVITY * dt 
+		self.velocity.y = self.velocity.y - GRAVITY * dt
 		self.velocity.y = clamp(self.velocity.y, -MAX_Y_VEL, MAX_Y_VEL)
+		self.state = STATE_JUMP
 	end
 
 	-- set the character according to its velocity and collision correction
@@ -103,7 +117,7 @@ function fixed_update(self, dt)
 	go.set_position(pos)
 
 	-- update velocity X in case he's still jumping
-	if self.hit_wall or self.on_ground then
+	if self.hit_wall or (self.state ~= STATE_DASH and self.on_ground) then
 		self.velocity.x = 0
 	else
 		self.velocity.x = self.velocity.x * AIR_FRICTION
@@ -130,19 +144,23 @@ local function manage_collisions(self, message)
 	if distance > 0 then
 		local projection = vmath.project(self.correction, normal * distance)
 		if projection < 1 then
-			local compensation = (distance - distance * projection) * normal
-			self.correction = self.correction + compensation
+			local comp = (distance - distance * projection)
+			copy_in_place(self.compensation, normal)
+			multiply_in_place(self.compensation, comp)
+			add_in_place(self.correction, self.compensation)
 		end
 	end
 
-	-- level on left or right 
+	-- hit level on left or right 
 	if math.abs(normal.x) > 0.7 then
 		self.hit_wall = true
+		self.state = STATE_IDLE
 	end
 
 	-- hit the ground
 	if normal.y > 0.7 then
 		self.on_ground = true
+		self.state = STATE_IDLE
 	end
 
 	-- hit a ceiling
@@ -167,7 +185,7 @@ local function move_h(self, state)
 	flip(self)
 	local vel = state == STATE_DASH and DASH_VEL or WALK_VEL
 	self.velocity.x = vel * self.direction
-	self.state = state
+	if self.on_ground then self.state = state end
 end
 
 -- init jump

@@ -27,7 +27,7 @@ embedded_instances {
   "mass: 0.0\\n"
   "friction: 0.1\\n"
   "restitution: 0.5\\n"
-  "group: \\\"\\\"\\n"
+  "group: \\\"level\\\"\\n"
   "mask: \\\"wizard\\\"\\n"
   "linear_damping: 0.0\\n"
   "angular_damping: 0.0\\n"
@@ -165,7 +165,7 @@ embedded_instances {
   "far_z: 1000.0\\n"
   "auto_aspect_ratio: 0\\n"
   "orthographic_projection: 1\\n"
-  "orthographic_zoom: 0.5\\n"
+  "orthographic_zoom: 1.0\\n"
   "\"\n"
   "  position {\n"
   "    x: 0.0\n"
@@ -181,8 +181,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 544.0
-    y: 175.0
+    x: 133.0
+    y: -278.0
     z: 0.0
   }
   rotation {
@@ -192,8 +192,28 @@ embedded_instances {
     w: 1.0
   }
   scale3 {
-    x: 1.5
-    y: 1.5
+    x: 0.5
+    y: 0.5
+    z: 0.5
+  }
+}
+embedded_instances {
+  id: "background"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
     z: 1.0
   }
 }
