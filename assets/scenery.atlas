@@ -1,25 +1,237 @@
 images {
-  image: "/assets/images/Mossy Assets/Mossy Tileset/deco1.png"
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/deco1.png"
   sprite_trim_mode: SPRITE_TRIM_MODE_OFF
 }
 images {
-  image: "/assets/images/Mossy Assets/Mossy Tileset/deco2.png"
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/deco2.png"
   sprite_trim_mode: SPRITE_TRIM_MODE_OFF
 }
 images {
-  image: "/assets/images/Mossy Assets/Mossy Tileset/deco3.png"
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/deco3.png"
   sprite_trim_mode: SPRITE_TRIM_MODE_OFF
 }
 images {
-  image: "/assets/images/Mossy Assets/Mossy Tileset/deco4.png"
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/deco4.png"
   sprite_trim_mode: SPRITE_TRIM_MODE_OFF
 }
 images {
-  image: "/assets/images/Mossy Assets/Mossy Tileset/deco5.png"
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/deco5.png"
   sprite_trim_mode: SPRITE_TRIM_MODE_OFF
 }
 images {
-  image: "/assets/images/Mossy Assets/Mossy Tileset/deco6.png"
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/deco6.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hangingplant01.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hangingplant02.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hangingplant03.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hangingplant04.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hangingplant05.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hangingplant06.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hangingplant07.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hangingplant08.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hangingplant09.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hangingplant10.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard01.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard02.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard03.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard04.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard05.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard06.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard07.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard08.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard09.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard10.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard11.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard12.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard13.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard14.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard15.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard16.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard17.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard18.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard19.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard20.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard21.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard22.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard23.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard24.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard25.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard26.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard27.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hazard28.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hills1.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hills2.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hills3.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hills4.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hills5.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hills6.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/hills7.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/platform1.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/platform2.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/platform3.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/platform4.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/platform5.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/platform6.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/platform7.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/assets/images/Mossy Assets/Mossy Tileset/img128/platform8.png"
   sprite_trim_mode: SPRITE_TRIM_MODE_OFF
 }
 margin: 0
