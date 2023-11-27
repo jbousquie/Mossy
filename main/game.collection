@@ -336,7 +336,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/wizard.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/wizard128.atlas\\\"\\n"
   "default_animation: \\\"idle\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -372,8 +372,8 @@ embedded_instances {
   "  shapes {\\n"
   "    shape_type: TYPE_BOX\\n"
   "    position {\\n"
-  "      x: -1.0\\n"
-  "      y: -13.0\\n"
+  "      x: 0.0\\n"
+  "      y: -2.0\\n"
   "      z: 0.0\\n"
   "    }\\n"
   "    rotation {\\n"
@@ -385,8 +385,8 @@ embedded_instances {
   "    index: 0\\n"
   "    count: 3\\n"
   "  }\\n"
-  "  data: 30.502825\\n"
-  "  data: 55.92072\\n"
+  "  data: 6.747151\\n"
+  "  data: 16.704273\\n"
   "  data: 10.0\\n"
   "}\\n"
   "linear_damping: 0.0\\n"
@@ -415,7 +415,7 @@ embedded_instances {
   "far_z: 1000.0\\n"
   "auto_aspect_ratio: 0\\n"
   "orthographic_projection: 1\\n"
-  "orthographic_zoom: 1.0\\n"
+  "orthographic_zoom: 2.0\\n"
   "\"\n"
   "  position {\n"
   "    x: 0.0\n"
@@ -442,9 +442,9 @@ embedded_instances {
     w: 1.0
   }
   scale3 {
-    x: 0.5
-    y: 0.5
-    z: 0.5
+    x: 1.0
+    y: 1.0
+    z: 1.0
   }
 }
 embedded_instances {
