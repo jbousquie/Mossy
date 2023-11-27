@@ -1,10 +1,10 @@
 
 -- SETTINGS
-local WALK_VEL = 650
-local JUMP_VEL = 900
-local DASH_VEL = 1500
-local GRAVITY = 1500
-local MAX_Y_VEL = 2000
+local WALK_VEL = 200
+local JUMP_VEL = 350
+local DASH_VEL = 500
+local GRAVITY = 850
+local MAX_Y_VEL = 1500
 local AIR_FRICTION = 0.97
 
 -- STATES 
@@ -23,7 +23,7 @@ local DASH = hash("dash")
 local ANIM_IDLE = hash("idle")
 local ANIM_WALK = hash("walk")
 local ANIM_JUMP = hash("jump")
-local ANIM_DASH = hash("dash1")
+local ANIM_DASH = hash("dash")
 
 -- OTHER CONSTs
 local CONTACT_POINT = hash("contact_point_response")
